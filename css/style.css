@@ -11,6 +11,15 @@ body {
     background-color: #264653;
 }
 
+.honda-bg-body {
+    background-color: #E5E5E5;
+}
+
+.honda-img-icon {
+    width: 149px;
+    height: 149px;
+}
+
 .honda-img-gray {
     filter: grayscale(75%);
 }
