@@ -10,3 +10,11 @@ body {
 .honda-bg-header {
     background-color: #264653;
 }
+
+.honda-img-gray {
+    filter: grayscale(75%);
+}
+
+.honda-img-hue {
+    filter: hue-rotate(150deg);
+}
