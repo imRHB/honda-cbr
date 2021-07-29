@@ -9,9 +9,26 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
-/* footer {
+footer {
     font-family: 'Manrope', sans-serif;
-} */
+}
+
+a {
+    text-decoration: none;
+    color: #E76F51;
+}
+
+a:hover {
+    color: #FFFFFF;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
 
 .honda-bg-header {
     background-color: #264653;
@@ -29,9 +46,23 @@ body {
     background-color: #E76F51;
 }
 
+.honda-bg-footer {
+    background-color: #0B0D17;
+}
+
 .honda-img-icon {
     width: 149px;
     height: 149px;
+}
+
+.honda-img-footer-icon {
+    width: 100px;
+    border: 1px solid #E76F51;
+    border-radius: 4px;
+}
+
+.honda-img-footer-icon:hover {
+    border: 1px solid #FFFFFF;
 }
 
 .honda-img-gray {
