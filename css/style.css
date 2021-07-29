@@ -27,3 +27,27 @@ body {
 .honda-img-hue {
     filter: hue-rotate(150deg);
 }
+
+.honda-text-primary {
+    color: #23A6F0;
+}
+
+.honda-text-alert {
+    color: #E77C40;
+}
+
+.honda-bg-alert {
+    background-color: #E77C40;
+}
+
+.honda-text-danger {
+    color: #E76F51;
+}
+
+.honda-text-dark {
+    color: #383838;
+}
+
+.fa-star {
+    color: #E77C40;
+}
