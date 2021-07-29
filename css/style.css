@@ -9,9 +9,9 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
-footer {
+/* footer {
     font-family: 'Manrope', sans-serif;
-}
+} */
 
 .honda-bg-header {
     background-color: #264653;
@@ -23,6 +23,10 @@ footer {
 
 .honda-bg-alert {
     background-color: #E77C40;
+}
+
+.honda-bg-warning {
+    background-color: #E76F51;
 }
 
 .honda-img-icon {
