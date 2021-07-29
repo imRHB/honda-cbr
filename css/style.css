@@ -50,7 +50,7 @@ body {
     color: #E77C40;
 }
 
-.honda-text-danger {
+.honda-text-warning {
     color: #E76F51;
 }
 
@@ -60,6 +60,17 @@ body {
 
 .honda-text-fade {
     color: #7E848C;
+}
+
+.honda-btn {
+    color: #FFFFFF;
+    background-color: #E76F51;
+}
+
+.honda-btn:hover {
+    color: #E76F51;
+    background-color: #FFFFFF;
+    border: 1px solid #E76F51;
 }
 
 .fa-star {
