@@ -2,9 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Manrope:wght@400;500&family=Poppins:wght@300;400;500;600&display=swap');
 
 body {
-    font-family: 'Inter', sans-serif;
-    font-family: 'Manrope', sans-serif;
     font-family: 'Poppins', sans-serif;
+}
+
+.accordion {
+    font-family: 'Inter', sans-serif;
+}
+
+footer {
+    font-family: 'Manrope', sans-serif;
 }
 
 .honda-bg-header {
@@ -13,6 +19,10 @@ body {
 
 .honda-bg-body {
     background-color: #E5E5E5;
+}
+
+.honda-bg-alert {
+    background-color: #E77C40;
 }
 
 .honda-img-icon {
@@ -36,16 +46,16 @@ body {
     color: #E77C40;
 }
 
-.honda-bg-alert {
-    background-color: #E77C40;
-}
-
 .honda-text-danger {
     color: #E76F51;
 }
 
 .honda-text-dark {
     color: #383838;
+}
+
+.honda-text-fade {
+    color: #7E848C;
 }
 
 .fa-star {
