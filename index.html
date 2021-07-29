@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Honda CBR</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/fav-icon.png" type="image/x-icon">
     <!-- font awesome kit -->
     <script src="https://kit.fontawesome.com/11dc314598.js" crossorigin="anonymous"></script>
     <!-- bootstrap stylesheet -->
@@ -145,7 +147,7 @@
             <div class="my-5">
                 <h1 class="text-center my-5 fw-bold">Frequently Asked <span class="honda-text-danger">Questions</span>
                 </h1>
-                <div class="row align-items-center g-5">
+                <div class="row align-items-center my-5 g-5">
                     <div class="col-md-6">
                         <div>
                             <img class="w-75 d-block mx-auto" src="images/faq.png" alt="">
@@ -228,10 +230,51 @@
             </div>
         </section>
 
+        <!-- gallery section start -->
+        <section class="container">
+            <div class="my-5">
+                <div class="my-5">
+                    <h1 class="text-uppercase fw-bold text-center">Gallery</h1>
+                    <p class="text-center honda-text-danger">Honda CBR</p>
+                </div>
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/carousel-1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/carousel-2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/carousel-3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
         <!-- pre-booking section start -->
         <section class="container">
             <div class="my-5">
-                <h1 class="fw-bold text-center"><span class="honda-text-danger">PRE-BOOK</span> NOW</h1>
+                <h1 class="fw-bold text-center"><span class="honda-text-danger my-5">PRE-BOOK</span> NOW</h1>
                 <div class="row align-items-center">
                     <div class="col-md-6 order-md-2">
                         <img class="w-75 d-block mx-auto" src="images/pre-booking.jpg" alt="">
@@ -250,7 +293,7 @@
                             <label for="floatingInput">Email address</label>
                         </div>
                         <div class="mb-3">
-                            <select class="form-select" aria-label="Default select example">
+                            <select class="form-select p-3" aria-label="Default select example">
                                 <option selected>Choose Color</option>
                                 <option value="1">Blue-White</option>
                                 <option value="2">Grey-White</option>
